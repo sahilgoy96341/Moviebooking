@@ -1,0 +1,30 @@
+#leftrow>div,#Rightrow>div{
+    width: 30px;
+    height: 30px;
+    background: grey;
+    padding: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+#Rightrow>div:hover{
+    background-color: black;
+}
+#leftrow,#Rightrow{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 10px;
+}
+
+#seats{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+#main{
+    width: 60%;
+    margin: 30px auto;
+    text-align: center;
+}
